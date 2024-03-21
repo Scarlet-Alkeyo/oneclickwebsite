@@ -1,0 +1,177 @@
+#navbar{
+    display: flex;
+    gap: 5%;
+}
+#button1{
+    color:  white;
+    background-color: palevioletred;
+}
+#button2{
+    color: white;
+    background-color: black;
+}
+#charge{
+    color: red;
+}
+#buttons{
+    display: flex;
+    gap: 5%;
+}
+#heading1{
+    color: blue;
+}
+#page1{
+    display: flex;
+    gap: 10%;
+}
+#headshot1{
+    margin-right:20px;
+}
+#heading2{
+    text-align: center;
+    gap:20%;
+}
+#icons{
+    display: flex;
+    
+    text-align: center;
+    gap: 5%;
+}
+#product{
+    color: pink;
+    
+}
+#heading3{
+    text-align: center;
+}
+#page2{
+   display: flex;
+   gap: 20%;
+}
+#diti{
+    color: pink;
+}
+#heading5{
+    display: flex;
+    gap: 10%;
+}
+#heading4{
+    display: flex;
+
+
+}
+#icons2{
+    display: flex;
+    gap: 5%;
+}
+#button4{
+    color: white;
+    background-color: blue;
+}
+#button5{
+    color: white;
+    background-color: pink;
+}
+#customers{
+    color: pink;
+}
+#button6{
+    color: white;
+    background-color: black;
+}
+#button7{
+    color:  white;
+    background-color: pink;
+}
+#page3{
+    display: flex;
+    gap: 20%;
+}
+#page4{
+    display: flex;
+    gap: 20%;
+}
+#button8{
+    color: white;
+    background-color: black;
+}
+#page5{
+    display: flex;
+    gap: 20%;
+}
+#icons6{
+    display: flex;
+}
+#footer{
+    display:  flex;
+    color: white;
+    background-color: black;
+    gap: 5%;
+    
+}
+
+
+@media screen and (min-width: 375px)  and (max-width:667){
+
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 9%;
+    
+    }
+
+    #page1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    #icons{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #page2{
+        display: flex;
+        flex-wrap: wrap;
+     }
+
+
+     #footer{
+        display:  flex;
+        flex-wrap: wrap;
+        color: white;
+        background-color: black;
+       
+    
+        
+    }
+
+    #heading5{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    #heading4{
+        display: flex;
+        flex-wrap: wrap;
+    
+    
+  
+    }
+
+    #page3{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+    #page4{
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+}
+
