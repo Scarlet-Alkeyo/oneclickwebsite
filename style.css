@@ -89,6 +89,7 @@
 }
 #page4{
     display: flex;
+    flex-direction: column;
     gap: 20%;
 }
 #button8{
@@ -116,7 +117,7 @@
     #navbar{
         display: flex;
         flex-wrap: wrap;
-        font-size: 9%;
+        font-size: 4%;
     
     }
 
@@ -171,6 +172,7 @@
     #page4{
         display: flex;
         flex-wrap: wrap;
+        
     
     }
 }
